@@ -24,8 +24,8 @@ function toggleMenu()
     {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
-        menuNav.classList.add('show');
-        menuBranding.classList.add('show');
+        menuNav.classList.remove('show');
+        menuBranding.classList.remove('show');
         navItems.forEach(item =>item.classList.remove('show'));
    //set Menu State
    showMenu=false;  

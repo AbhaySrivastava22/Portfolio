@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobo';
 *{
     box-sizing: border-box;
 }
@@ -27,7 +28,6 @@ font-weight: 400;
 {
     margin-bottom:2rem;
     padding: 0.2 rem 1rem;
-    background: rgba(lighten($primary-color, 2),0.5);
 }
 }
 a{
