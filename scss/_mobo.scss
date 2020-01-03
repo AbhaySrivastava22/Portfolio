@@ -1,13 +1,17 @@
 // widescreens
 @include mediaXl
 {
-
+.projects{
+    grid-template-columns:repeat(4,1fr);
+}
 }
 
 
 // Desktops and Laptops
 @include mediaLg
-{
+{.projects{
+    grid-template-columns:repeat(3,1fr);
+}
     
 }
 
@@ -65,6 +69,9 @@ ul.menu-nav,div.menu-branding
 .bio{
     font-size: 1.2rem;
 }
+.projects{
+    grid-template-columns:repeat(2,1fr);
+}
 }
 
 //SmartPhones
@@ -72,5 +79,8 @@ ul.menu-nav,div.menu-branding
 {
     main#home h1{
        margin-top:10hv;
+    }
+    .projects{
+        grid-template-columns: 1fr;
     }
 }
