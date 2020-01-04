@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
-  "homepage": "https://Black-Hawk22.github.io/portfolio",
+  "homepage": "https://AbhaySrivastava22.github.io/Portfolio",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",

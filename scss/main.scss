@@ -168,11 +168,13 @@ font-size: 1.5rem;
     @extend .btn;
     background: darken($primary-color,50);
     color: white;
+    text-align: center;
 }
 .btn-light{
     @extend .btn;
     background: lighten($primary-color,50);
     color: #333;
+    text-align: center;
 }
 
 //Contact Page

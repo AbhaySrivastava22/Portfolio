@@ -227,11 +227,13 @@ main {
 
 .btn-dark {
   background: black;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .btn-light {
   background: #c4c4c4;
-  color: #333; }
+  color: #333;
+  text-align: center; }
 
 .boxes {
   display: flex;
