@@ -129,7 +129,8 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2 rem 1rem; }
+    padding: 0.2 rem 1rem;
+    font-size: 2rem; }
 
 a {
   text-decoration: none;
@@ -276,7 +277,7 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
-      font-size: 3rem; }
+      font-size: 4rem; }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
@@ -309,6 +310,6 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 3rem; }
+      font-size: 4rem; }
   .projects {
     grid-template-columns: 1fr; } }
